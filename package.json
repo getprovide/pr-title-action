@@ -1,0 +1,23 @@
+{
+  "name": "pr-title-action",
+  "version": "1.0.0",
+  "description": "A GitHub Action to ensure a PR title matches a Jira Ticket ID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lendeavor/pr-title-action.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lendeavor/pr-title-action/issues"
+  },
+  "homepage": "https://github.com/lendeavor/pr-title-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1"
+  }
+}

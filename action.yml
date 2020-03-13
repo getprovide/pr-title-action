@@ -1,0 +1,5 @@
+name: 'PR Title'
+description: 'Ensure PR title matches a Jira Ticket ID'
+runs:
+  using: 'node12'
+  main: 'index.js'
