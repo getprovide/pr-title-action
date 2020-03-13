@@ -18,4 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: lendeavor/pr-title-action@v1
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
 ```

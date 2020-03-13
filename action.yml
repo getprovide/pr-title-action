@@ -3,3 +3,7 @@ description: 'Ensure PR title matches a Jira Ticket ID'
 runs:
   using: 'node12'
   main: 'index.js'
+inputs:
+  repo_token:
+    description: 'The GITHUB_TOKEN for this repo'
+    required: true
